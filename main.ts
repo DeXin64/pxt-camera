@@ -40,8 +40,10 @@ namespace xgo {
         serial.writeBuffer(rotate_buffer)
     }
 
-    //% block="initModule"
-    export function initModule() {
+    //% block="Initialize AI-Lens"
+    //% group="Basic" weight=100 subcategory=Vision
+    //% color=#00B1ED
+    export function initModule(): void {
         return true
     }
 
