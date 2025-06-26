@@ -1,10 +1,6 @@
 {
-  "PlanetX_AILens.FuncList.Ball|block": "小球识别",
-  "PlanetX_AILens.FuncList.Card|block": "卡片识别",
-  "PlanetX_AILens.FuncList.Color|block": "颜色识别",
-  "PlanetX_AILens.FuncList.Face|block": "人脸识别",
   "PlanetX_AILens.FuncList.Things|block": "特征学习",
-  "PlanetX_AILens.FuncList.Tracking|block": "巡线识别",
+  "PlanetX_AILens.FuncList.OCR|block": "OCR识别",
   "PlanetX_AILens.rotate_enum.Left|block": "左",
   "PlanetX_AILens.rotate_enum.Right|block": "右",
   "PlanetX_AILens.initModule|block": "初始化模块",
@@ -13,7 +9,13 @@
   "PlanetX_AILens.ClearlearnObject|block": "清除已学习的对象",
   "PlanetX_AILens.objectCheck|block": "图像中包含对象: %status",
   "PlanetX_AILens.objectConfidence|block": "从图像中获取对象 %thingsID 的置信度",
+  "PlanetX_AILens.startOCRRealtime|block": "开始 OCR 实时文字识别",
+  "PlanetX_AILens.stopOCRRealtime|block": "退出实时识别模式",
+  "PlanetX_AILens.freezeOCRImage|block": "冻结当前图像的 OCR 识别",
+  "PlanetX_AILens.resumeOCRRealtime|block": "退出冻结状态并恢复识别",
   "PlanetX_AILens|block": "行星X_AI",
   "{id:group}Basic": "基础",
+  "{id:group}Learn": "特征学习",
+  "{id:group}OCR": "OCR识别",
   "{id:category}PlanetX_AILens": "行星X_AI"
 }
