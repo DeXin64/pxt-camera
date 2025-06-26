@@ -1,9 +1,9 @@
 {
-  "xgo.rotate_enum.Left|block": "Left",
-  "xgo.rotate_enum.Right|block": "Right",
-  "xgo.rotate|block": "rotate %direction,speed is %speed\\%",
-  "xgo.initModule|block": "initModule",
-  "xgo.switchfunc|block": "Switch function as %fun",
+  "PlanetX_AILens.rotate_enum.Left|block": "Left",
+  "PlanetX_AILens.rotate_enum.Right|block": "Right",
+  "PlanetX_AILens.rotate|block": "rotate %direction,speed is %speed\\%",
+  "PlanetX_AILens.initModule|block": "initModule",
+  "PlanetX_AILens.switchfunc|block": "Switch function as %fun",
   "{id:group}Basic": "Basic",
-  "{id:category}Xgo": "Xgo"
+  "{id:category}PlanetX_AILens": "PlanetX_AILens"
 }
