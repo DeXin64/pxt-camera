@@ -22,7 +22,7 @@ namespace PlanetX_AILens {
     }
 
     //% block="Initialize AI-Lens"
-    //% group="Basic" weight=80
+    //% group="Basic" weight=200
     //% color=#00B1ED
     export function initModule(): void {
     }
@@ -31,7 +31,7 @@ namespace PlanetX_AILens {
     //% block="Switch function as %fun"
     //% fun.fieldEditor="gridpicker"
     //% fun.fieldOptions.columns=3
-    //% group="Basic" weight=95
+    //% group="Basic" weight=80
     //% color=#00B1ED
     export function switchfunc(fun: FuncList): void {
 
