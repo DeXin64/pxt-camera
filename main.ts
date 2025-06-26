@@ -44,7 +44,6 @@ namespace xgo {
     //% group="Basic" weight=100 subcategory=Vision
     //% color=#00B1ED
     export function initModule(): void {
-        return true
     }
 
 }
