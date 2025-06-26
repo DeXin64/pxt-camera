@@ -1,0 +1,29 @@
+{
+    "name": "XGO",
+    "version": "1.1.0",
+    "description": "The intelligent programming dog XGO produced",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "_locales/XGO-jsdoc-strings.json",
+        "_locales/XGO-strings.json",
+        "_locales/zh-CN/XGO-jsdoc-strings.json",
+        "_locales/zh-CN/XGO-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.17",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
