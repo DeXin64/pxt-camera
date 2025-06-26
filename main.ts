@@ -40,6 +40,7 @@ namespace xgo {
         serial.writeBuffer(rotate_buffer)
     }
 
+    //% block="initModule"
     export function initModule() {
         return true
     }
