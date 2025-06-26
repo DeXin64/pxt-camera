@@ -56,7 +56,7 @@ namespace PlanetX_AILens {
     }
 
     //% block="Clear learned objects"
-    //% group="Learn" weight=15 subcategory=Vision
+    //% group="Learn" weight=15 
     //% color=#00B1ED
     export function ClearlearnObject(): void {
 
@@ -65,14 +65,14 @@ namespace PlanetX_AILens {
     //% block="Image contains learned objects: %status"
     //% status.fieldEditor="gridpicker"
     //% status.fieldOptions.columns=3
-    //% group="Learn" weight=14 subcategory=Vision
+    //% group="Learn" weight=82 
     //% color=#00B1ED
     export function objectCheck(status: learnID): boolean {
 
     }
 
     //% block="In the image get learn object %thingsID Confidence"
-    //% group="Learn" weight=10 subcategory=Vision
+    //% group="Learn" weight=83 
     //% color=#00B1ED
     export function objectConfidence(thingsID: learnID): number {
 
