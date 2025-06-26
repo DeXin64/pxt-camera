@@ -9,6 +9,10 @@
   "PlanetX_AILens.rotate_enum.Right|block": "右",
   "PlanetX_AILens.initModule|block": "初始化模块",
   "PlanetX_AILens.switchfunc|block": "切换功能为 %fun",
+  "PlanetX_AILens.learnObject|block": "学习画面中的对象为: %thingsID",
+  "PlanetX_AILens.ClearlearnObject|block": "清除已学习的对象",
+  "PlanetX_AILens.numberCard|block": "图像中包含 %status 数字卡片",
+  "PlanetX_AILens.objectCheck|block": "图像中包含对象: %status",
   "PlanetX_AILens|block": "行星X_AI",
   "{id:group}Basic": "基础",
   "{id:category}PlanetX_AILens": "行星X_AI"

@@ -21,6 +21,15 @@ namespace PlanetX_AILens {
         Things = 10
     }
 
+    export enum learnID {
+        ID1 = 1,
+        ID2 = 2,
+        ID3 = 3,
+        ID4 = 4,
+        ID5 = 5
+    }
+
+
     //% block="Initialize AI-Lens"
     //% group="Basic" weight=200
     //% color=#00B1ED
@@ -34,6 +43,38 @@ namespace PlanetX_AILens {
     //% group="Basic" weight=80
     //% color=#00B1ED
     export function switchfunc(fun: FuncList): void {
+
+    }
+
+    //% block="Learn an object with: %thingsID"
+    //% status.fieldEditor="gridpicker"
+    //% status.fieldOptions.columns=3
+    //% group="Learn" weight=81
+    //% color=#00B1ED
+    export function learnObject(thingsID: learnID): void {
+   
+    }
+
+    //% block="Clear learned objects"
+    //% group="Learn" weight=15 subcategory=Vision
+    //% color=#00B1ED
+    export function ClearlearnObject(): void {
+
+    }
+
+    //% block="Image contains learned objects: %status"
+    //% status.fieldEditor="gridpicker"
+    //% status.fieldOptions.columns=3
+    //% group="Learn" weight=14 subcategory=Vision
+    //% color=#00B1ED
+    export function objectCheck(status: learnID): boolean {
+
+    }
+
+    //% block="In the image get learn object %thingsID Confidence"
+    //% group="Learn" weight=10 subcategory=Vision
+    //% color=#00B1ED
+    export function objectConfidence(thingsID: learnID): number {
 
     }
 }
