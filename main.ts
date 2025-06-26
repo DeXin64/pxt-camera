@@ -64,7 +64,7 @@ namespace xgo {
     //% block="Switch function as %fun"
     //% fun.fieldEditor="gridpicker"
     //% fun.fieldOptions.columns=3
-    //% group="Basic" weight=95 subcategory=Vision
+    //% group="Basic" weight=95
     //% color=#00B1ED
     export function switchfunc(fun: FuncList): void {
 

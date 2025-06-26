@@ -8,6 +8,7 @@
   "xgo.rotate_enum.Left|block": "左",
   "xgo.rotate_enum.Right|block": "右",
   "xgo.initModule|block": "初始化模块",
+  "xgo.switchfunc|block": "切换功能为 %fun",
   "{id:group}Basic": "基础",
   "{id:category}Xgo": "Xgo"
 }
