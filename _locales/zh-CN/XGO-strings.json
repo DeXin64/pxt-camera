@@ -1,9 +1,13 @@
 {
-  "xgo.direction_enum.Left|block": "左",
-  "xgo.direction_enum.Right|block": "右",
+  "PlanetX_AILens.FuncList.Ball|block": "小球识别",
+  "PlanetX_AILens.FuncList.Card|block": "卡片识别",
+  "PlanetX_AILens.FuncList.Color|block": "颜色识别",
+  "PlanetX_AILens.FuncList.Face|block": "人脸识别",
+  "PlanetX_AILens.FuncList.Things|block": "特征学习",
+  "PlanetX_AILens.FuncList.Tracking|block": "巡线识别",
   "xgo.rotate_enum.Left|block": "左",
   "xgo.rotate_enum.Right|block": "右",
   "xgo.initModule|block": "初始化模块",
-  "{id:group}basic": "基础",
+  "{id:group}Basic": "基础",
   "{id:category}Xgo": "Xgo"
 }

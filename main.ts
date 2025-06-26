@@ -12,6 +12,20 @@ namespace xgo {
         Right
     }
 
+    export enum FuncList {
+        //% block="Card recognition"
+        Card = 2,
+        //% block="Face recognition" 
+        Face = 6,
+        //% block="Ball recognition"
+        Ball = 7,
+        //% block="Tracking recognition"
+        Tracking = 8,
+        //% block="Color recognition"
+        Color = 9,
+        //% block="Learn Object"
+        Things = 10
+    }
     //% block="rotate %direction,speed is %speed\\%"
     //% speed.min=0 speed.max=100
     export function rotate(direction: rotate_enum, speed: number) {
@@ -41,9 +55,18 @@ namespace xgo {
     }
 
     //% block="Initialize AI-Lens"
-    //% group="basic" weight=80
+    //% group="Basic" weight=80
     //% color=#00B1ED
     export function initModule(): void {
     }
 
+
+    //% block="Switch function as %fun"
+    //% fun.fieldEditor="gridpicker"
+    //% fun.fieldOptions.columns=3
+    //% group="Basic" weight=95 subcategory=Vision
+    //% color=#00B1ED
+    export function switchfunc(fun: FuncList): void {
+
+    }
 }
