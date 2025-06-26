@@ -41,7 +41,7 @@ namespace xgo {
     }
 
     //% block="Initialize AI-Lens"
-    //% group="Basic" weight=100 subcategory=Vision
+    //% group="basic" weight=80
     //% color=#00B1ED
     export function initModule(): void {
     }

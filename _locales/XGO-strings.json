@@ -3,5 +3,6 @@
   "xgo.rotate_enum.Right|block": "Right",
   "xgo.rotate|block": "rotate %direction,speed is %speed\\%",
   "xgo.initModule|block": "initModule",
+  "{id:group}Basic": "basic",
   "{id:category}Xgo": "Xgo"
 }
