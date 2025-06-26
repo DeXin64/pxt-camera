@@ -4,6 +4,6 @@
   "xgo.rotate_enum.Left|block": "左",
   "xgo.rotate_enum.Right|block": "右",
   "xgo.initModule|block": "初始化模块",
-  "{id:group}Basic": "基础",
+  "{id:group}basic": "基础",
   "{id:category}Xgo": "Xgo"
 }
