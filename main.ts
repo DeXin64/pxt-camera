@@ -68,13 +68,13 @@ namespace PlanetX_AILens {
     //% group="Learn" weight=82 
     //% color=#00B1ED
     export function objectCheck(status: learnID): boolean {
-
+        return true;
     }
 
     //% block="In the image get learn object %thingsID Confidence"
     //% group="Learn" weight=83 
     //% color=#00B1ED
     export function objectConfidence(thingsID: learnID): number {
-
+        return 0;
     }
 }
